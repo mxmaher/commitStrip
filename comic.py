@@ -23,7 +23,7 @@ def get_strip(section):
     title = section.find('strong').text
     url = section.find('a').get('href')
 
-    return {'title': title, 'ulr': url}
+    return {'title': title, 'url': url}
 
 
 def store_data(soup):
