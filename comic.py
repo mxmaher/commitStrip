@@ -1,8 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import requests
 from bs4 import BeautifulSoup
-import simplejson as json
+import json
 import webbrowser
 import sys
 
